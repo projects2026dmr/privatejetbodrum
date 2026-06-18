@@ -11,8 +11,51 @@ export default function RomeToBodrum() {
     const md = document.querySelector('meta[name="description"]');
     if (md) md.setAttribute('content', 'Flight time, aircraft options, and route details for private jet flights from Rome to Bodrum.');
     const c = document.querySelector('link[rel="canonical"]');
-    if (c) c.setAttribute('href', 'https://privatejetbodrum.vercel.app/rome-to-bodrum');
-    window.scrollTo(0, 0);
+if (c) c.setAttribute('href', 'https://privatejetbodrum.vercel.app/rome-to-bodrum');
+
+/* ⭐⭐ BURAYA EKLİYORSUN ⭐⭐ */
+
+// OpenGraph
+document.querySelector('meta[property="og:title"]')?.setAttribute(
+  'content',
+  'Private Jet Rome → Bodrum'
+);
+
+document.querySelector('meta[property="og:description"]')?.setAttribute(
+  'content',
+  'Flight time, aircraft options, and route details for private jet flights from Rome to Bodrum.'
+);
+
+document.querySelector('meta[property="og:url"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/rome-to-bodrum'
+);
+
+document.querySelector('meta[property="og:image"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/images/og/rome-bodrum.jpg'
+);
+
+// Twitter
+document.querySelector('meta[name="twitter:title"]')?.setAttribute(
+  'content',
+  'Private Jet Rome → Bodrum'
+);
+
+document.querySelector('meta[name="twitter:description"]')?.setAttribute(
+  'content',
+  'Flight time, aircraft options, and route details for private jet flights from Rome to Bodrum.'
+);
+
+document.querySelector('meta[name="twitter:image"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/images/og/rome-bodrum.jpg'
+);
+
+/* ⭐⭐ BURAYA KADAR ⭐⭐ */
+
+window.scrollTo(0, 0);
+
     return () => {
       document.title = 'Private Jet Bodrum | Jet & Helicopter Charter';
       if (md) md.setAttribute('content', 'Private jet flights and helicopter scenic tours in Bodrum. Premium charter services with Airbus H130 and luxury jet options. Contact our concierge team 24/7.');
