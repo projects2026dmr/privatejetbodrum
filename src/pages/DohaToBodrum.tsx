@@ -11,9 +11,52 @@ export default function DohaToBodrum() {
     document.title = 'Doha to Bodrum Private Jet Route | Private Jet Bodrum';
     const md = document.querySelector('meta[name="description"]');
     if (md) md.setAttribute('content', 'Flight time, aircraft options, and route details for private jet flights from Doha to Bodrum.');
-    const c = document.querySelector('link[rel="canonical"]');
-    if (c) c.setAttribute('href', 'https://privatejetbodrum.vercel.app/doha-to-bodrum');
-    window.scrollTo(0, 0);
+const c = document.querySelector('link[rel="canonical"]');
+if (c) c.setAttribute('href', 'https://privatejetbodrum.vercel.app/doha-to-bodrum');
+
+/* ⭐⭐ BURAYA EKLİYORSUN ⭐⭐ */
+
+// OpenGraph
+document.querySelector('meta[property="og:title"]')?.setAttribute(
+  'content',
+  'Private Jet Doha → Bodrum'
+);
+
+document.querySelector('meta[property="og:description"]')?.setAttribute(
+  'content',
+  'Flight time, aircraft options, and route details for private jet flights from Doha to Bodrum.'
+);
+
+document.querySelector('meta[property="og:url"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/doha-to-bodrum'
+);
+
+document.querySelector('meta[property="og:image"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/images/og/doha-bodrum.jpg'
+);
+
+// Twitter
+document.querySelector('meta[name="twitter:title"]')?.setAttribute(
+  'content',
+  'Private Jet Doha → Bodrum'
+);
+
+document.querySelector('meta[name="twitter:description"]')?.setAttribute(
+  'content',
+  'Flight time, aircraft options, and route details for private jet flights from Doha to Bodrum.'
+);
+
+document.querySelector('meta[name="twitter:image"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/images/og/doha-bodrum.jpg'
+);
+
+/* ⭐⭐ BURAYA KADAR ⭐⭐ */
+
+window.scrollTo(0, 0);
+
     return () => { document.title = 'Private Jet Bodrum | Jet & Helicopter Charter'; if (md) md.setAttribute('content', 'Private jet flights and helicopter scenic tours in Bodrum. Premium charter services with Airbus H130 and luxury jet options. Contact our concierge team 24/7.'); if (c) c.setAttribute('href', 'https://privatejetbodrum.vercel.app'); };
   }, []);
 
