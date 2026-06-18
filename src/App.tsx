@@ -140,6 +140,57 @@ export default function App() {
           <Route path="/vienna-to-bodrum" element={<ViennaToBodrum />} />
 
           {/* 50 new routes */}
+          <Route path="/munich-to-bodrum" element={<MunichToBodrum />} />
+<Route path="/frankfurt-to-bodrum" element={<FrankfurtToBodrum />} />
+<Route path="/hamburg-to-bodrum" element={<HamburgToBodrum />} />
+<Route path="/dusseldorf-to-bodrum" element={<DusseldorfToBodrum />} />
+<Route path="/stuttgart-to-bodrum" element={<StuttgartToBodrum />} />
+<Route path="/cologne-to-bodrum" element={<CologneToBodrum />} />
+<Route path="/hanover-to-bodrum" element={<HanoverToBodrum />} />
+<Route path="/nuremberg-to-bodrum" element={<NurembergToBodrum />} />
+<Route path="/manchester-to-bodrum" element={<ManchesterToBodrum />} />
+<Route path="/birmingham-to-bodrum" element={<BirminghamToBodrum />} />
+<Route path="/edinburgh-to-bodrum" element={<EdinburghToBodrum />} />
+<Route path="/glasgow-to-bodrum" element={<GlasgowToBodrum />} />
+<Route path="/bristol-to-bodrum" element={<BristolToBodrum />} />
+<Route path="/nice-to-bodrum" element={<NiceToBodrum />} />
+<Route path="/cannes-to-bodrum" element={<CannesToBodrum />} />
+<Route path="/lyon-to-bodrum" element={<LyonToBodrum />} />
+<Route path="/marseille-to-bodrum" element={<MarseilleToBodrum />} />
+<Route path="/milan-to-bodrum" element={<MilanToBodrum />} />
+<Route path="/venice-to-bodrum" element={<VeniceToBodrum />} />
+<Route path="/florence-to-bodrum" element={<FlorenceToBodrum />} />
+<Route path="/naples-to-bodrum" element={<NaplesToBodrum />} />
+<Route path="/barcelona-to-bodrum" element={<BarcelonaToBodrum />} />
+<Route path="/valencia-to-bodrum" element={<ValenciaToBodrum />} />
+<Route path="/malaga-to-bodrum" element={<MalagaToBodrum />} />
+<Route path="/seville-to-bodrum" element={<SevilleToBodrum />} />
+<Route path="/brussels-to-bodrum" element={<BrusselsToBodrum />} />
+<Route path="/luxembourg-to-bodrum" element={<LuxembourgToBodrum />} />
+<Route path="/copenhagen-to-bodrum" element={<CopenhagenToBodrum />} />
+<Route path="/stockholm-to-bodrum" element={<StockholmToBodrum />} />
+<Route path="/oslo-to-bodrum" element={<OsloToBodrum />} />
+<Route path="/helsinki-to-bodrum" element={<HelsinkiToBodrum />} />
+<Route path="/basel-to-bodrum" element={<BaselToBodrum />} />
+<Route path="/lugano-to-bodrum" element={<LuganoToBodrum />} />
+<Route path="/salzburg-to-bodrum" element={<SalzburgToBodrum />} />
+<Route path="/innsbruck-to-bodrum" element={<InnsbruckToBodrum />} />
+<Route path="/belgrade-to-bodrum" element={<BelgradeToBodrum />} />
+<Route path="/sofia-to-bodrum" element={<SofiaToBodrum />} />
+<Route path="/bucharest-to-bodrum" element={<BucharestToBodrum />} />
+<Route path="/zagreb-to-bodrum" element={<ZagrebToBodrum />} />
+<Route path="/ljubljana-to-bodrum" element={<LjubljanaToBodrum />} />
+<Route path="/tirana-to-bodrum" element={<TiranaToBodrum />} />
+<Route path="/skopje-to-bodrum" element={<SkopjeToBodrum />} />
+<Route path="/podgorica-to-bodrum" element={<PodgoricaToBodrum />} />
+<Route path="/tel-aviv-to-bodrum" element={<TelAvivToBodrum />} />
+<Route path="/beirut-to-bodrum" element={<BeirutToBodrum />} />
+<Route path="/cairo-to-bodrum" element={<CairoToBodrum />} />
+<Route path="/amman-to-bodrum" element={<AmmanToBodrum />} />
+<Route path="/baku-to-bodrum" element={<BakuToBodrum />} />
+<Route path="/tbilisi-to-bodrum" element={<TbilisiToBodrum />} />
+<Route path="/yerevan-to-bodrum" element={<YerevanToBodrum />} />
+
           {/* (Hepsini tek tek yazdın, doğru) */}
           {/* Bu kısmı değiştirmiyoruz */}
 
