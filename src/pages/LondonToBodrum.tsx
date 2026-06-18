@@ -57,7 +57,7 @@ export default function LondonToBodrum() {
     // Update canonical
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) {
-      canonical.setAttribute('href', 'https://privatejetbodrum.com/london-to-bodrum');
+      canonical.setAttribute('href', 'https://privatejetbodrum.vercel.app/london-to-bodrum');
     }
 
     // Scroll to top on mount
@@ -70,7 +70,7 @@ export default function LondonToBodrum() {
         metaDescription.setAttribute('content', 'Private jet flights and helicopter scenic tours in Bodrum. Premium charter services with Airbus H130 and luxury jet options. Contact our concierge team 24/7.');
       }
       if (canonical) {
-        canonical.setAttribute('href', 'https://privatejetbodrum.com');
+        canonical.setAttribute('href', 'https://privatejetbodrum.vercel.app');
       }
     };
   }, []);
