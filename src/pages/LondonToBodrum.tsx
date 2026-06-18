@@ -56,12 +56,53 @@ export default function LondonToBodrum() {
 
     // Update canonical
     const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) {
-      canonical.setAttribute('href', 'https://privatejetbodrum.vercel.app/london-to-bodrum');
-    }
+if (canonical) {
+  canonical.setAttribute('href', 'https://privatejetbodrum.vercel.app/london-to-bodrum');
+}
 
-    // Scroll to top on mount
-    window.scrollTo(0, 0);
+/* ⭐⭐ BURAYA EKLİYORSUN ⭐⭐ */
+
+// OpenGraph
+document.querySelector('meta[property="og:title"]')?.setAttribute(
+  'content',
+  'Private Jet London → Bodrum'
+);
+
+document.querySelector('meta[property="og:description"]')?.setAttribute(
+  'content',
+  'Flight time, aircraft options, and route details for private jet flights from London to Bodrum.'
+);
+
+document.querySelector('meta[property="og:url"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/london-to-bodrum'
+);
+
+document.querySelector('meta[property="og:image"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/images/og/london-bodrum.jpg'
+);
+
+// Twitter
+document.querySelector('meta[name="twitter:title"]')?.setAttribute(
+  'content',
+  'Private Jet London → Bodrum'
+);
+
+document.querySelector('meta[name="twitter:description"]')?.setAttribute(
+  'content',
+  'Flight time, aircraft options, and route details for private jet flights from London to Bodrum.'
+);
+
+document.querySelector('meta[name="twitter:image"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/images/og/london-bodrum.jpg'
+);
+
+/* ⭐⭐ BURAYA KADAR ⭐⭐ */
+
+window.scrollTo(0, 0);
+
 
     return () => {
       // Reset on unmount
