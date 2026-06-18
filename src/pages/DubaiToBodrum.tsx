@@ -48,11 +48,52 @@ export default function DubaiToBodrum() {
     // Update canonical
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) {
-      canonical.setAttribute('href', 'https://privatejetbodrum.vercel.app/dubai-to-bodrum');
-    }
+  canonical.setAttribute('href', 'https://privatejetbodrum.vercel.app/dubai-to-bodrum');
+}
 
-    // Scroll to top on mount
-    window.scrollTo(0, 0);
+/* ⭐⭐ BURAYA EKLİYORSUN ⭐⭐ */
+
+// OpenGraph
+document.querySelector('meta[property="og:title"]')?.setAttribute(
+  'content',
+  'Private Jet Dubai → Bodrum'
+);
+
+document.querySelector('meta[property="og:description"]')?.setAttribute(
+  'content',
+  'Flight time, aircraft options, and route details for private jet flights from Dubai to Bodrum.'
+);
+
+document.querySelector('meta[property="og:url"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/dubai-to-bodrum'
+);
+
+document.querySelector('meta[property="og:image"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/images/og/dubai-bodrum.jpg'
+);
+
+// Twitter
+document.querySelector('meta[name="twitter:title"]')?.setAttribute(
+  'content',
+  'Private Jet Dubai → Bodrum'
+);
+
+document.querySelector('meta[name="twitter:description"]')?.setAttribute(
+  'content',
+  'Flight time, aircraft options, and route details for private jet flights from Dubai to Bodrum.'
+);
+
+document.querySelector('meta[name="twitter:image"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/images/og/dubai-bodrum.jpg'
+);
+
+/* ⭐⭐ BURAYA KADAR ⭐⭐ */
+
+window.scrollTo(0, 0);
+
 
     return () => {
       // Reset on unmount
