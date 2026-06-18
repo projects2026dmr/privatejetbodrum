@@ -30,12 +30,54 @@ export default function BerlinToBodrum() {
       );
     }
 
-    const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) {
-      canonical.setAttribute('href', 'https://privatejetbodrum.com/berlin-to-bodrum');
-    }
+const canonical = document.querySelector('link[rel="canonical"]');
+if (canonical) {
+  canonical.setAttribute('href', 'https://privatejetbodrum.vercel.app/berlin-to-bodrum');
+}
 
-    window.scrollTo(0, 0);
+/* ⭐⭐ BURAYA EKLİYORSUN ⭐⭐ */
+
+// OpenGraph
+document.querySelector('meta[property="og:title"]')?.setAttribute(
+  'content',
+  'Private Jet Berlin → Bodrum'
+);
+
+document.querySelector('meta[property="og:description"]')?.setAttribute(
+  'content',
+  'Flight time, aircraft options, and route details for private jet flights from Berlin to Bodrum.'
+);
+
+document.querySelector('meta[property="og:url"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/berlin-to-bodrum'
+);
+
+document.querySelector('meta[property="og:image"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/images/og/berlin-bodrum.jpg'
+);
+
+// Twitter
+document.querySelector('meta[name="twitter:title"]')?.setAttribute(
+  'content',
+  'Private Jet Berlin → Bodrum'
+);
+
+document.querySelector('meta[name="twitter:description"]')?.setAttribute(
+  'content',
+  'Flight time, aircraft options, and route details for private jet flights from Berlin to Bodrum.'
+);
+
+document.querySelector('meta[name="twitter:image"]')?.setAttribute(
+  'content',
+  'https://privatejetbodrum.vercel.app/images/og/berlin-bodrum.jpg'
+);
+
+/* ⭐⭐ BURAYA KADAR ⭐⭐ */
+
+window.scrollTo(0, 0);
+
 
     return () => {
       document.title = 'Private Jet Bodrum | Jet & Helicopter Charter';
@@ -46,7 +88,7 @@ export default function BerlinToBodrum() {
         );
       }
       if (canonical) {
-        canonical.setAttribute('href', 'https://privatejetbodrum.com');
+        canonical.setAttribute('href', 'https://privatejetbodrum.vercel.app');
       }
     };
   }, []);
