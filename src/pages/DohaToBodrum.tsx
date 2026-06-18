@@ -12,9 +12,9 @@ export default function DohaToBodrum() {
     const md = document.querySelector('meta[name="description"]');
     if (md) md.setAttribute('content', 'Flight time, aircraft options, and route details for private jet flights from Doha to Bodrum.');
     const c = document.querySelector('link[rel="canonical"]');
-    if (c) c.setAttribute('href', 'https://privatejetbodrum.com/doha-to-bodrum');
+    if (c) c.setAttribute('href', 'https://privatejetbodrum.vercel.app/doha-to-bodrum');
     window.scrollTo(0, 0);
-    return () => { document.title = 'Private Jet Bodrum | Jet & Helicopter Charter'; if (md) md.setAttribute('content', 'Private jet flights and helicopter scenic tours in Bodrum. Premium charter services with Airbus H130 and luxury jet options. Contact our concierge team 24/7.'); if (c) c.setAttribute('href', 'https://privatejetbodrum.com'); };
+    return () => { document.title = 'Private Jet Bodrum | Jet & Helicopter Charter'; if (md) md.setAttribute('content', 'Private jet flights and helicopter scenic tours in Bodrum. Premium charter services with Airbus H130 and luxury jet options. Contact our concierge team 24/7.'); if (c) c.setAttribute('href', 'https://privatejetbodrum.vercel.app'); };
   }, []);
 
   return (
