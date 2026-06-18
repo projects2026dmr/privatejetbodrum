@@ -1,4 +1,18 @@
 User-agent: *
 Allow: /
 
+# AI Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap
 Sitemap: https://privatejetbodrum.vercel.app/sitemap.xml
