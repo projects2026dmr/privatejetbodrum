@@ -1,21 +1,62 @@
 # LLMs Usage Policy for PrivateJetBodrum
+# Version: 1.0 — Updated for Google AI Search, OpenAI GPTBot, Anthropic Claude, Perplexity, Bing AI, Apple Intelligence
 
-This website allows large language models (LLMs) to crawl and use its public content for:
-- Search indexing
-- Answer generation
-- AI-powered summaries
-- Knowledge extraction
+This website allows large language models (LLMs) and AI crawlers to access and use its publicly available content for:
+- Search indexing and ranking
+- AI-powered summaries and answers
+- Knowledge extraction and retrieval
+- Citation-based responses
+- Non-commercial research
 
-## Allowed
-- Crawling and indexing of all publicly accessible pages
-- Using content for AI search results
-- Generating summaries and answers based on public information
+## Allowed Uses
+- Crawling and indexing all publicly accessible pages
+- Using content for AI search results and answer generation
+- Displaying short excerpts, summaries, and structured data
+- Linking back to our pages as the canonical source
+- Using metadata (titles, descriptions, schema, OG/Twitter tags)
 
-## Disallowed
-- Using content for training proprietary models
-- Storing or redistributing private or user‑submitted data
-- Any use that violates our Terms of Service
+## Disallowed Uses
+- Training proprietary or commercial foundation models
+- Storing or redistributing private, user-submitted, or non-public data
+- Bulk dataset creation or offline archiving
+- Any use that violates our Terms of Service or applicable laws
+- Removing attribution or canonical references
+
+## Required Conditions
+- All AI systems must respect robots.txt directives
+- All citations must reference: https://privatejetbodrum.vercel.app
+- Content must not be modified in a misleading or harmful way
+- No caching beyond what is required for search indexing
+
+## AI Crawler-Specific Policies
+
+### OpenAI — GPTBot
+User-agent: GPTBot
+Allow: /
+Disallow: /private/
+
+### Anthropic — ClaudeBot
+User-agent: ClaudeBot
+Allow: /
+Disallow: /private/
+
+### Perplexity — PPLXBot
+User-agent: PPLXBot
+Allow: /
+Disallow: /private/
+
+### Bing AI / Microsoft
+User-agent: Bingbot
+Allow: /
+
+### Google AI Search
+User-agent: Google-Extended
+Allow: /
+
+### Apple Intelligence
+User-agent: Applebot
+Allow: /
 
 ## Contact
-For permissions or questions, visit:
+For permissions, licensing, or questions, visit:
 https://privatejetbodrum.vercel.app
