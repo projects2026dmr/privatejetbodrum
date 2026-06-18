@@ -1,0 +1,21 @@
+# LLMs Usage Policy for PrivateJetBodrum
+
+This website allows large language models (LLMs) to crawl and use its public content for:
+- Search indexing
+- Answer generation
+- AI-powered summaries
+- Knowledge extraction
+
+## Allowed
+- Crawling and indexing of all publicly accessible pages
+- Using content for AI search results
+- Generating summaries and answers based on public information
+
+## Disallowed
+- Using content for training proprietary models
+- Storing or redistributing private or user‑submitted data
+- Any use that violates our Terms of Service
+
+## Contact
+For permissions or questions, visit:
+https://privatejetbodrum.vercel.app
