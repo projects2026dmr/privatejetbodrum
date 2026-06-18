@@ -6,12 +6,12 @@ function useMeta(city: string, path: string) {
     const md = document.querySelector('meta[name="description"]');
     if (md) md.setAttribute('content', `Flight time, aircraft options, and route details for private jet flights from ${city} to Bodrum.`);
     const ca = document.querySelector('link[rel="canonical"]');
-    if (ca) ca.setAttribute('href', `https://privatejetbodrum.com/${path}`);
+    if (ca) ca.setAttribute('href', `https://privatejetbodrum.vercel.app/${path}`);
     window.scrollTo(0, 0);
     return () => {
       document.title = 'Private Jet Bodrum | Jet & Helicopter Charter';
       if (md) md.setAttribute('content', 'Private jet flights and helicopter scenic tours in Bodrum. Premium charter services with Airbus H130 and luxury jet options. Contact our concierge team 24/7.');
-      if (ca) ca.setAttribute('href', 'https://privatejetbodrum.com');
+      if (ca) ca.setAttribute('href', 'https://privatejetbodrum.vercel.app');
     };
   }, [city, path]);
 }
@@ -28,13 +28,13 @@ function PremiumPage({ city, path, time, distance, aircraft, airports }: { city:
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": `${city} to Bodrum Private Jet Route`,
-    "url": `https://privatejetbodrum.com/${path}`,
+    "url": `https://privatejetbodrum.vercel.app/${path}`,
     "description": `Private jet flight time, aircraft options, and airport details for flights from ${city} to Bodrum.`,
     "breadcrumb": {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://privatejetbodrum.com" },
-        { "@type": "ListItem", "position": 2, "name": `${city} to Bodrum`, "item": `https://privatejetbodrum.com/${path}` }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://privatejetbodrum.vercel.app" },
+        { "@type": "ListItem", "position": 2, "name": `${city} to Bodrum`, "item": `https://privatejetbodrum.vercel.app/${path}` }
       ]
     },
     "flight": {
