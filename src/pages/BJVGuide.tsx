@@ -44,7 +44,7 @@ export default function BJVGuide() {
     // Update canonical
     let canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) {
-      canonical.setAttribute('href', 'https://privatejetbodrum.com/bjv-guide');
+      canonical.setAttribute('href', 'https://privatejetbodrum.vercel.app/bjv-guide');
     }
 
     // Scroll to top on mount
@@ -57,7 +57,7 @@ export default function BJVGuide() {
         metaDescription.setAttribute('content', 'Private jet flights and helicopter scenic tours in Bodrum. Premium charter services with Airbus H130 and luxury jet options. Contact our concierge team 24/7.');
       }
       if (canonical) {
-        canonical.setAttribute('href', 'https://privatejetbodrum.com');
+        canonical.setAttribute('href', 'https://privatejetbodrum.vercel.app');
       }
     };
   }, []);
